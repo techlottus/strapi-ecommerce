@@ -1,0 +1,130 @@
+{
+  "kind": "collectionType",
+  "collectionName": "track_subscriptions",
+  "info": {
+    "singularName": "track-subscription",
+    "pluralName": "track-subscriptions",
+    "displayName": "track subscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stripe_payment_id": {
+      "type": "string"
+    },
+    "stripe_description": {
+      "type": "string"
+    },
+    "stripe_date": {
+      "type": "string"
+    },
+    "stripe_status": {
+      "type": "string"
+    },
+    "stripe_phone": {
+      "type": "string"
+    },
+    "stripe_email": {
+      "type": "string"
+    },
+    "stripe_amount": {
+      "type": "string"
+    },
+    "typeform_firstname": {
+      "type": "string"
+    },
+    "typeform_lastname": {
+      "type": "string"
+    },
+    "typeform_gender": {
+      "type": "string"
+    },
+    "typeform_birthday": {
+      "type": "string"
+    },
+    "typeform_phone": {
+      "type": "string"
+    },
+    "typeform_email": {
+      "type": "string"
+    },
+    "salesforce_level": {
+      "type": "string"
+    },
+    "salesforce_campus": {
+      "type": "string"
+    },
+    "salesforce_program": {
+      "type": "string"
+    },
+    "salesforce_code": {
+      "type": "string"
+    },
+    "typeform_residence": {
+      "type": "string"
+    },
+    "typeform_CURP": {
+      "type": "string"
+    },
+    "typeform_birth_entity": {
+      "type": "string"
+    },
+    "typeform_generate_invoice": {
+      "type": "string"
+    },
+    "typeform_invoice_fullname": {
+      "type": "string"
+    },
+    "typeform_invoice_email": {
+      "type": "string"
+    },
+    "typeform_invoice_CURP": {
+      "type": "string"
+    },
+    "typeform_invoice_address": {
+      "type": "string"
+    },
+    "typeform_invoice_colony": {
+      "type": "string"
+    },
+    "typeform_invoice_city": {
+      "type": "string"
+    },
+    "typeform_invoice_state": {
+      "type": "string"
+    },
+    "typeform_invoice_postal_code": {
+      "type": "string"
+    },
+    "typeform_invoice_tax_person": {
+      "type": "string"
+    },
+    "typeform_invoice_RFC": {
+      "type": "string"
+    },
+    "typeform_invoice_CFDI_use": {
+      "type": "string"
+    },
+    "typeform_invoice_tax_regime": {
+      "type": "string"
+    },
+    "typeform_invoice_tax_regime_D10": {
+      "type": "string"
+    },
+    "typeform_invoice_tax_regime_G03": {
+      "type": "string"
+    },
+    "typeform_invoice_token": {
+      "type": "string"
+    },
+    "typeform_invoice_submitted_at": {
+      "type": "string"
+    },
+    "typeform_invoice_inscription_status": {
+      "type": "string"
+    }
+  }
+}
