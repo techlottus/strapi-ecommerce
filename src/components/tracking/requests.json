@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tracking_requests",
+  "info": {
+    "displayName": "requests"
+  },
+  "options": {},
+  "attributes": {
+    "vendor": {
+      "type": "string"
+    },
+    "request": {
+      "type": "string"
+    }
+  }
+}

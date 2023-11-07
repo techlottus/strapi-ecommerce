@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tracking_responses",
+  "info": {
+    "displayName": "responses"
+  },
+  "options": {},
+  "attributes": {
+    "vendor": {
+      "type": "string"
+    },
+    "response": {
+      "type": "string"
+    }
+  }
+}
