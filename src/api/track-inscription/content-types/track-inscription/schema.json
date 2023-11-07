@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "track_inscriptions",
+  "info": {
+    "singularName": "track-inscription",
+    "pluralName": "track-inscriptions",
+    "displayName": "track inscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_id": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "birthdate": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "residence": {
+      "type": "string"
+    },
+    "CURP": {
+      "type": "string"
+    },
+    "birth_entity": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    },
+    "student_data": {
+      "type": "json"
+    },
+    "requests": {
+      "displayName": "requests",
+      "type": "component",
+      "repeatable": true,
+      "component": "tracking.requests"
+    },
+    "responses": {
+      "displayName": "responses",
+      "type": "component",
+      "repeatable": true,
+      "component": "tracking.responses"
+    }
+  }
+}

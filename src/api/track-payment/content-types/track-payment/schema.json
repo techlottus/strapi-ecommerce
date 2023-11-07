@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "track_payments",
+  "info": {
+    "singularName": "track-payment",
+    "pluralName": "track-payments",
+    "displayName": "track payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_id": {
+      "type": "string"
+    },
+    "payment_gateway": {
+      "type": "string"
+    },
+    "payment_date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  }
+}

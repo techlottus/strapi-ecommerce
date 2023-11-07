@@ -51,16 +51,13 @@
     "typeform_email": {
       "type": "string"
     },
-    "salesforce_level": {
+    "salesforce_campus_code": {
       "type": "string"
     },
-    "salesforce_campus": {
+    "salesforce_program_name": {
       "type": "string"
     },
-    "salesforce_program": {
-      "type": "string"
-    },
-    "salesforce_code": {
+    "salesforce_program_code": {
       "type": "string"
     },
     "typeform_residence": {
@@ -117,13 +114,22 @@
     "typeform_invoice_tax_regime_G03": {
       "type": "string"
     },
-    "typeform_invoice_token": {
+    "typeform_token": {
       "type": "string"
     },
-    "typeform_invoice_submitted_at": {
+    "typeform_submitted_at": {
       "type": "string"
     },
-    "typeform_invoice_inscription_status": {
+    "salesforce_inscription_status": {
+      "type": "string"
+    },
+    "salesforce_payment_type": {
+      "type": "string"
+    },
+    "shopify_id": {
+      "type": "string"
+    },
+    "salesforce_level_code": {
       "type": "string"
     }
   }

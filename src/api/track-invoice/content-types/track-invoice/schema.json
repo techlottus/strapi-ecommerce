@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "track_invoices",
+  "info": {
+    "singularName": "track-invoice",
+    "pluralName": "track-invoices",
+    "displayName": "track invoice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_id": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "CURP": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "colony": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "tax_person": {
+      "type": "string"
+    },
+    "RFC": {
+      "type": "string"
+    },
+    "CFDI_use": {
+      "type": "string"
+    },
+    "tax_regime": {
+      "type": "string"
+    }
+  }
+}
