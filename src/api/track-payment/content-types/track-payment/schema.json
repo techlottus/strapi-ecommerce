@@ -15,13 +15,7 @@
     "payment_id": {
       "type": "string"
     },
-    "payment_gateway": {
-      "type": "string"
-    },
-    "payment_date": {
-      "type": "string"
-    },
-    "description": {
+    "product_name": {
       "type": "string"
     },
     "date": {
@@ -37,6 +31,18 @@
       "type": "string"
     },
     "metadata": {
+      "type": "string"
+    },
+    "cs_id": {
+      "type": "string"
+    },
+    "subscription_id": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "enrollment": {
       "type": "string"
     }
   }
