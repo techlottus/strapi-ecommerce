@@ -929,6 +929,8 @@ export interface ApiTrackPaymentTrackPayment extends Schema.CollectionType {
     subscription_id: Attribute.String;
     phone: Attribute.String;
     enrollment: Attribute.String;
+    customer_id: Attribute.String;
+    order_id: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

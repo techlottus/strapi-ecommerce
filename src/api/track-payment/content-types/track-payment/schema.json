@@ -44,6 +44,12 @@
     },
     "enrollment": {
       "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
     }
   }
 }
