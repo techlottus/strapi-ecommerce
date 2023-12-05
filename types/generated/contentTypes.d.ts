@@ -924,13 +924,14 @@ export interface ApiTrackPaymentTrackPayment extends Schema.CollectionType {
     status: Attribute.String;
     amount: Attribute.String;
     email: Attribute.String;
-    metadata: Attribute.String;
     cs_id: Attribute.String;
     subscription_id: Attribute.String;
     phone: Attribute.String;
     enrollment: Attribute.String;
     customer_id: Attribute.String;
     order_id: Attribute.String;
+    metadata: Attribute.JSON;
+    payment_method_type: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

@@ -30,9 +30,6 @@
     "email": {
       "type": "string"
     },
-    "metadata": {
-      "type": "string"
-    },
     "cs_id": {
       "type": "string"
     },
@@ -49,6 +46,12 @@
       "type": "string"
     },
     "order_id": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "payment_method_type": {
       "type": "string"
     }
   }
