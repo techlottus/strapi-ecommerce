@@ -50,6 +50,9 @@
     },
     "enrollment": {
       "type": "string"
+    },
+    "need_invoice": {
+      "type": "boolean"
     }
   }
 }

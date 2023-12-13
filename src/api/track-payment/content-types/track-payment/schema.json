@@ -53,6 +53,9 @@
     },
     "payment_method_type": {
       "type": "string"
+    },
+    "card_type": {
+      "type": "string"
     }
   }
 }

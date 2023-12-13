@@ -845,6 +845,7 @@ export interface ApiTrackInscriptionTrackInscription
     submitted_at: Attribute.String;
     civil_status: Attribute.String;
     enrollment: Attribute.String;
+    need_invoice: Attribute.Boolean;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -932,6 +933,7 @@ export interface ApiTrackPaymentTrackPayment extends Schema.CollectionType {
     order_id: Attribute.String;
     metadata: Attribute.JSON;
     payment_method_type: Attribute.String;
+    card_type: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
