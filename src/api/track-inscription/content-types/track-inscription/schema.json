@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "payment_id": {
+    "cs_id": {
       "type": "string"
     },
-    "full_name": {
+    "name": {
       "type": "string"
     },
     "last_name": {
@@ -42,26 +42,17 @@
     "birth_entity": {
       "type": "string"
     },
-    "token": {
-      "type": "string"
-    },
     "submitted_at": {
       "type": "string"
     },
-    "student_data": {
-      "type": "json"
+    "civil_status": {
+      "type": "string"
     },
-    "requests": {
-      "displayName": "requests",
-      "type": "component",
-      "repeatable": true,
-      "component": "tracking.requests"
+    "enrollment": {
+      "type": "string"
     },
-    "responses": {
-      "displayName": "responses",
-      "type": "component",
-      "repeatable": true,
-      "component": "tracking.responses"
+    "need_invoice": {
+      "type": "boolean"
     }
   }
 }

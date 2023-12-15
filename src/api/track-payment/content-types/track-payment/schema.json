@@ -15,13 +15,7 @@
     "payment_id": {
       "type": "string"
     },
-    "payment_gateway": {
-      "type": "string"
-    },
-    "payment_date": {
-      "type": "string"
-    },
-    "description": {
+    "product_name": {
       "type": "string"
     },
     "date": {
@@ -36,7 +30,31 @@
     "email": {
       "type": "string"
     },
+    "cs_id": {
+      "type": "string"
+    },
+    "subscription_id": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "enrollment": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
     "metadata": {
+      "type": "json"
+    },
+    "payment_method_type": {
+      "type": "string"
+    },
+    "card_type": {
       "type": "string"
     }
   }
