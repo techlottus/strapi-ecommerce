@@ -934,6 +934,7 @@ export interface ApiTrackPaymentTrackPayment extends Schema.CollectionType {
     metadata: Attribute.JSON;
     payment_method_type: Attribute.String;
     card_type: Attribute.String;
+    extra_fields: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
