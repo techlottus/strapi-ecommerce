@@ -56,6 +56,9 @@
     },
     "card_type": {
       "type": "string"
+    },
+    "extra_fields": {
+      "type": "json"
     }
   }
 }
