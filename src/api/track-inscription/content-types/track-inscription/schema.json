@@ -53,6 +53,9 @@
     },
     "need_invoice": {
       "type": "boolean"
+    },
+    "second_last_name": {
+      "type": "string"
     }
   }
 }
