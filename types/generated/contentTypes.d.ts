@@ -832,7 +832,7 @@ export interface ApiTrackInscriptionTrackInscription
     draftAndPublish: true;
   };
   attributes: {
-    cs_id: Attribute.String;
+    cs_id: Attribute.String & Attribute.Unique;
     name: Attribute.String;
     last_name: Attribute.String;
     gender: Attribute.String;
