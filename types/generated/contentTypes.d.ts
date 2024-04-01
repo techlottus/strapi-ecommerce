@@ -846,6 +846,7 @@ export interface ApiTrackInscriptionTrackInscription
     civil_status: Attribute.String;
     enrollment: Attribute.String;
     need_invoice: Attribute.Boolean;
+    second_last_name: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -919,13 +920,13 @@ export interface ApiTrackPaymentTrackPayment extends Schema.CollectionType {
     draftAndPublish: false;
   };
   attributes: {
-    payment_id: Attribute.String;
+    payment_id: Attribute.String & Attribute.Unique;
     product_name: Attribute.String;
     date: Attribute.String;
     status: Attribute.String;
     amount: Attribute.String;
     email: Attribute.String;
-    cs_id: Attribute.String;
+    cs_id: Attribute.String & Attribute.Unique;
     subscription_id: Attribute.String;
     phone: Attribute.String;
     enrollment: Attribute.String;

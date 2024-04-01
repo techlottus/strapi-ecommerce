@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "payment_id": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "product_name": {
       "type": "string"
@@ -31,7 +32,8 @@
       "type": "string"
     },
     "cs_id": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "subscription_id": {
       "type": "string"
