@@ -11,5 +11,12 @@
     "draftAndPublish": false
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "cs_id": {
+      "type": "string"
+    },
+    "subscription_id": {
+      "type": "string"
+    }
+  }
 }
