@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "cs_id": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "name": {
       "type": "string"

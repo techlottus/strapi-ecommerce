@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "track_send_emails",
+  "info": {
+    "singularName": "track-send-email",
+    "pluralName": "track-send-emails",
+    "displayName": "track send email"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "template": {
+      "type": "string"
+    },
+    "template_id": {
+      "type": "string"
+    },
+    "compiled_template": {
+      "type": "text"
+    },
+    "params": {
+      "type": "json"
+    },
+    "email": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "delivered": {
+      "type": "boolean"
+    },
+    "scope": {
+      "type": "string"
+    }
+  }
+}
