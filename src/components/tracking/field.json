@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_tracking_fields",
+  "info": {
+    "displayName": "field"
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "string"
+    }
+  }
+}
