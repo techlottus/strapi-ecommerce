@@ -4,7 +4,8 @@
   "info": {
     "singularName": "track-send-email",
     "pluralName": "track-send-emails",
-    "displayName": "track send email"
+    "displayName": "track send email",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -34,6 +35,18 @@
     },
     "scope": {
       "type": "string"
+    },
+    "daily_current_count": {
+      "type": "integer"
+    },
+    "sending_limit": {
+      "type": "biginteger"
+    },
+    "errors": {
+      "displayName": "emailError",
+      "type": "component",
+      "repeatable": true,
+      "component": "tracking.email-error"
     }
   }
 }

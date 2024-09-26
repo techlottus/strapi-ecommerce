@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tracking_email_errors",
+  "info": {
+    "displayName": "emailError"
+  },
+  "options": {},
+  "attributes": {
+    "fields": {
+      "displayName": "field",
+      "type": "component",
+      "repeatable": true,
+      "component": "tracking.field"
+    },
+    "message": {
+      "type": "string"
+    },
+    "statusCode": {
+      "type": "string"
+    }
+  }
+}
