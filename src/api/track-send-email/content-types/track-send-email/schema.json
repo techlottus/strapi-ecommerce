@@ -44,6 +44,12 @@
     },
     "send_id": {
       "type": "string"
+    },
+    "cc": {
+      "type": "string"
+    },
+    "bcc": {
+      "type": "string"
     }
   }
 }
