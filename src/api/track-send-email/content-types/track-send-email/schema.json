@@ -36,17 +36,20 @@
     "scope": {
       "type": "string"
     },
-    "daily_current_count": {
-      "type": "integer"
+    "error": {
+      "type": "string"
     },
-    "sending_limit": {
-      "type": "biginteger"
+    "statusCode": {
+      "type": "string"
     },
-    "errors": {
-      "displayName": "emailError",
-      "type": "component",
-      "repeatable": true,
-      "component": "tracking.email-error"
+    "send_id": {
+      "type": "string"
+    },
+    "cc": {
+      "type": "string"
+    },
+    "bcc": {
+      "type": "string"
     }
   }
 }
